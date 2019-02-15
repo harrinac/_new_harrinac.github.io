@@ -1,0 +1,72 @@
+---
+layout: page
+title: Churn Prediction 
+---
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+</style>
+
+<table style="width:100%">
+  <caption>Project Scope</caption>
+  <tr>
+    <td>Deliverable</td>
+    <td><strong> Trained Model File/ Feature Importance Chart </strong></td>
+  </tr>
+  <tr>
+      <td>Machine Learning Task </td>
+      <td><strong> Clasification </strong></td>
+  </tr>
+  <tr>
+    <td>Target Variable</td>
+    <td><strong> Customer Churn Status (True/False)</strong> </td>
+  </tr>
+  <tr>
+    <td>Control Metric</td>
+    <td><strong> AUROC  0.78  </strong> </td>
+  </tr>
+</table>
+
+
+<p> 
+This project showcases a classification workflow for customer churn prediction.
+The data is from an anonymized real-world data set for e-commerce retailers.
+`
+</p>
+
+<p>The goal is to verify two client customer-service hypotheses:
+<ul>
+    <li> Sales decline leads to end of business and churn.
+    <li> Signififcant increases in sales lead to the client securing other financing options and churning.
+</ul>
+</p>
+
+<p>
+Two notebooks are presented in which data is cleaned and chronologically ordered data. 
+Sales data is rolled up through extensive feature engineering to capture the trend information.
+Data visualizations are presented to improve our understanding of the sales trend data and visually
+examine hypotheses.
+</p>
+
+
+<p>
+ A second notebook contains a chi2 test of feature significance, a churn prediction classification 
+ and Random Forest feature importance examination.
+The sales histories have a strong preponderance towards significant sales decline and 
+significant growth over the previous 3 and 6 month periods for our customers. 
+As a result most churn events will fall into 1 of these 2 categories by frequency alone.
+The worfkflows shown that the trend data is a useful predictor of churn and that significant sales increases
+are more likely to lead to churn.  There is insufficient evidence to statistically verify the customer-service hypothesis.
+</p>
+
+<p>You can find the code for this project at: <a href=" https://github.com/harrinac/Churn_Prediction">github repository</a> </p>
+
+
+

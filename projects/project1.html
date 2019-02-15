@@ -1,0 +1,62 @@
+---
+layout: page
+title: Prediction Workflow 
+---
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+</style>
+
+<table style="width:100%">
+  <caption>Project Scope</caption>
+  <tr>
+    <td>Deliverable</td>
+    <td><strong> Trained Model File </strong></td>
+  </tr>
+  <tr>
+      <td>Machine Learning Task </td>
+      <td><strong> Regression </strong></td>
+  </tr>
+  <tr>
+    <td>Target Variable</td>
+    <td><strong> Predicted Equipment Sale Price </strong> </td>
+  </tr>
+  <tr>
+    <td>Control Metric</td>
+    <td><strong> RMSLE 0.217 </strong> </td>
+  </tr>
+</table>
+
+
+<p> 
+This notebook performs regression analysis to predict heavy-equipment machine prices. 
+The data is taken from the Blue Book for Bulldozers Kaggle Competition: 
+"The goal of the contest is to predict the sale price of a particular piece of 
+heavy equiment at auction based on it's usage, equipment type, and configuaration. 
+The data is sourced from auction result postings and includes information on usage 
+and equipment configurations.</p>
+
+<p>
+An RMSLE of 0.217 (shown in notebook) would have been sufficient to win 
+this competition at the time it was run. Of course, the test set used here 
+is not the same as that used in the original competion, plus I have selected 
+the test data as a random subset of the overall training data provided. 
+In the original competition the test set did not chronologically overlap 
+with the training set. The result is that a better RMSLE score is to be expected. 
+
+Nonethless the standard out-of-the-box performance is impressive. 
+This is testament to the power of sklearn library and the default RandomForestRegresor implementation.
+</p>
+
+
+<p>You can find the code for this project at: <a href=" https://github.com/harrinac/EquipmentPricePrediction_Regression">github repository</a> </p>
+
+
+
