@@ -27,5 +27,5 @@ and citizens. I am convinced of the revolutionary impact that ML/AI will have on
 next 10 years.
 
 I work as a freelance ML/Data Science consultant and am interested to hear from people and 
-orgaizations about potential cooperation. I am also very interested in any comments on any of the projects show-cased here. 
+organizations about potential cooperation. I am also very interested in any comments on any of the projects show-cased here. 
 
